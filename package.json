@@ -123,7 +123,8 @@
     ],
     "h_img": "http://i.imgur.com/kPrOESX.png",
     "ex_img": "http://i.imgur.com/m4pwrnO.png",
-    "h_url": "http://ionicabizau.github.io/gridly/example/"
+    "h_url": "http://ionicabizau.github.io/gridly/example/",
+    "ex_url": "http://ionicabizau.github.io/gridly/example/"
   },
   "dependencies": {
     "uglifycss": "^0.0.18"

@@ -35,7 +35,7 @@ Then you can use the `.row` and `.col` classes:
 
 This will create two columns having equal widths.
 
-[![gridly](http://i.imgur.com/m4pwrnO.png)](#)
+[![gridly](http://i.imgur.com/m4pwrnO.png)](http://ionicabizau.github.io/gridly/example/)
 
 ## Installation
 
