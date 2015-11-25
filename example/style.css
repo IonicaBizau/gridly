@@ -1,0 +1,44 @@
+/* some custom css for the example page */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding-bottom: 1em;
+}
+
+
+section.title-section.text-center {
+    text-align: center;
+    padding: 4em;
+}
+
+h1.title {
+    font-size: 5em;
+    margin: 0;
+    color: #3498db;
+    text-shadow: 1px 1px 2px #2980b9;
+}
+
+.row {
+    margin: 1em;
+    background-color: #3498db;
+    padding: 7px;
+}
+
+.col {
+    background-color: #2c3e50;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
