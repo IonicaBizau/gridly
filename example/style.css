@@ -16,6 +16,9 @@ body {
 }
 
 
+section.title-section .col {
+    padding: 10px;
+}
 section.title-section.text-center {
     text-align: center;
     padding: 4em;
@@ -25,20 +28,42 @@ h1.title {
     font-size: 5em;
     margin: 0;
     color: #3498db;
-    text-shadow: 1px 1px 2px #2980b9;
+    text-shadow: 0 1px 2px #2980b9;
 }
 
-.row {
+section.demo .row {
     margin: 1em;
     background-color: #3498db;
     padding: 7px;
 }
 
-.col {
+section.demo .col {
     background-color: #2c3e50;
     margin: 5px;
     padding: 5px;
     text-align: center;
     color: #fff;
     font-weight: bold;
+}
+
+a {
+    color: #3498DB;
+    text-decoration: none;
+}
+
+.made-with-heart {
+    padding-top: 20px;
+}
+
+a.btn {
+    padding: 10px 0;
+    background-color: #3498DB;
+    color: #fff;
+    width: 100%;
+    box-shadow: 0 4px 5px rgba(44, 62, 80, 0.29);
+    display: inline-block;
+}
+
+a.btn:hover {
+    background-color: #2C3E50;
 }
