@@ -53,7 +53,7 @@ Because of the flexbox amazing power, the columns will have the same width (as m
 To extend this basic functionality, there is another file: `gridly-col-widths.min.css`. This adds the following classes:
 
  - `col-tenth` has `10%` width
- - `col-fifth` has `10%` width
+ - `col-fifth` has `20%` width
  - `col-quarter` has `25%` width
  - `col-third` has `33.3333334%` width
  - `col-half` has `50%` width
