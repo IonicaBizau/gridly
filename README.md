@@ -14,6 +14,14 @@ In the [`dist`](/dist) directory there are three minified files:
  - `gridly-col-widths.min.css` (92 B): the custom width columns
  - `gridly.min.css` (157 B): the previous two files' content put together
 
+## :rocket: Available on CDN!
+
+Gridly is available on cdnjs.com. [**Check it out**](https://cdnjs.com/libraries/gridly).
+
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-core.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-col-widths.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly.min.css
+
 If you do not need custom width columns, you will probably want to use only `gridly-core.min.css` in your page. If you do need the custom width columns, you have to include `gridly.min.css` instead.
 
 ## Example
