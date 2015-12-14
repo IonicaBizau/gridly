@@ -2,5 +2,5 @@
 .col { flex: 1; }
 @media (max-width: 48em) {
     .row { flex-direction: column; }
-    .col { flex: 0 0 100%; }
+    .col { flex: 0 0 auto; }
 }
