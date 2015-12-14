@@ -2,7 +2,7 @@
 
 # gridly [![Support this project][donate-now]][paypal-donations]
 
-The minimal (~157 bytes) grid system for modern browsers.
+The minimal (~100-170 bytes) grid system for modern browsers.
 
 You don't need monolithic CSS frameworks for simple grid systems. ~150 bytes of CSS can save your life. :dizzy:
 
@@ -77,6 +77,8 @@ Run `npm run release` to recreate all the `dist` files.
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [showalicense.com](http://showalicense.com/)–A site to provide an easy way to show licenses and their human-readable explanations. ([source](https://github.com/IonicaBizau/showalicense.com))
 
 ## License
 

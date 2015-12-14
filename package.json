@@ -1,7 +1,7 @@
 {
   "name": "gridly",
   "version": "1.1.0",
-  "description": "The minimal (~157 bytes) grid system for modern browsers.",
+  "description": "The minimal (~100-170 bytes) grid system for modern browsers.",
   "main": "lib/gridly.css",
   "directories": {
     "example": "example"
@@ -136,7 +136,12 @@
     "h_img": "http://i.imgur.com/kPrOESX.png",
     "ex_img": "http://i.imgur.com/m4pwrnO.png",
     "h_url": "http://ionicabizau.github.io/gridly/example/",
-    "ex_url": "http://ionicabizau.github.io/gridly/example/"
+    "ex_url": "http://ionicabizau.github.io/gridly/example/",
+    "usages": {
+        "ul": [
+            "[showalicense.com](http://showalicense.com/)–A site to provide an easy way to show licenses and their human-readable explanations. ([source](https://github.com/IonicaBizau/showalicense.com))"
+        ]
+    }
   },
   "dependencies": {
     "uglifycss": "^0.0.18"
