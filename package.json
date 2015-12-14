@@ -25,6 +25,9 @@
     "browsers"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "contributors": [
+    "Oliver Pattison <oliverpattison@gmail.com> (http://olivermak.es)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/gridly/issues"
