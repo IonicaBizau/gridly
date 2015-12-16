@@ -1,5 +1,6 @@
 /* some custom css for the example page */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://cdn.rawgit.com/IonicaBizau/bag.css/gh-pages/dist/bag.fixed.css);
 
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -7,18 +8,14 @@ body {
     background-color: #ecf0f1;
 }
 
-.container {
-    max-width: 960px;
-    width: 100%;
-    margin: 40px auto;
+.bag.fixed {
     background-color: #fff;
-    padding-bottom: 1em;
 }
-
 
 section.title-section .col {
     padding: 10px;
 }
+
 section.title-section.text-center {
     text-align: center;
     padding: 4em;
