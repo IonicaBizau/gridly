@@ -4,15 +4,15 @@
 
 The minimal (~100-170 bytes) grid system for modern browsers.
 
-You don't need monolithic CSS frameworks for simple grid systems. ~100 bytes of CSS can save your life. :dizzy:
+You don't need monolithic CSS frameworks for simple grid systems. ~200 bytes of CSS can save your life. :dizzy:
 
 ## Usage
 
 In the [`dist`](/dist) directory there are three minified files:
 
- - `gridly-core.min.css` (105 B): just the Gridly core including same-width column support and mobile responsive support.
- - `gridly-col-widths.min.css` (92 B): the custom width columns
- - `gridly.min.css` (165 B): the previous two files' content put together
+ - `gridly-core.min.css` (216 B): just the Gridly core including same-width column support and mobile responsive support.
+ - `gridly-col-widths.min.css` (249 B): the custom width columns
+ - `gridly.min.css` (465 B): the previous two files' content put together
 
 ## :rocket: Available on CDN!
 
