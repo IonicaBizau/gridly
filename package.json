@@ -9,9 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npm run dist-main && npm run dist-widths && npm run dist-all",
-    "dist-main": "uglifycss lib/gridly.css > dist/gridly-core.min.css",
-    "dist-widths": "uglifycss lib/gridly-col-widths.css > dist/gridly-col-widths.min.css",
-    "dist-all": "uglifycss lib/gridly.css > dist/gridly.min.css && uglifycss lib/gridly-col-widths.css >> dist/gridly.min.css"
+    "dist-main": "postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly.css | uglifycss > dist/gridly-core.min.css",
+    "dist-widths": "postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly-col-widths.css | uglifycss > dist/gridly-col-widths.min.css",
+    "dist-all": "postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly.css | uglifycss > dist/gridly.min.css && postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly-col-widths.css | uglifycss >> dist/gridly.min.css"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,9 @@
   },
   "homepage": "https://github.com/IonicaBizau/gridly#readme",
   "devDependencies": {
-    "uglifycss": "0.0.18"
+    "uglifycss": "0.0.18",
+    "autoprefixer": "~6.1.2",
+    "postcss-cli": "~2.3.2"
   },
   "blah": {
     "description": [
