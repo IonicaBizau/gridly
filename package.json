@@ -57,10 +57,18 @@
       },
       {
         "ul": [
-          "`gridly-core.min.css` (105 B): just the Gridly core including same-width column support and mobile responsive support.",
-          "`gridly-col-widths.min.css` (92 B): the custom width columns",
-          "`gridly.min.css` (165 B): the previous two files' content put together"
+        "`gridly-core.min.css` (105 B): just the Gridly core including same-width column support and mobile responsive support.",
+        "`gridly-col-widths.min.css` (115 B): the custom width columns",
+        "`gridly.min.css` (165 B): the previous two files' content put together"
         ]
+      },
+      { "p": "If you need to support more browsers, you can use the prefixed versions. They're located in [`dist/prefixed`](/dist/prefixed). They're ~1.8× the size of their counterparts." },
+      { "h3": "Browser Support" },
+      {
+          "p": [
+              "Gridly supports browsers that implement the Flexible Box Layout Module.",
+             "As of December 2015, [browser support for flexbox](http://caniuse.com/#feat=flexbox) is 81.27% for unprefixed, and 95.44% for prefixed."
+          ]
       },
       {
         "h2": ":rocket: Available on CDN!"

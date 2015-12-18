@@ -10,9 +10,9 @@ You don't need monolithic CSS frameworks for simple grid systems. ~100 bytes of 
 
 In the [`dist`](/dist) directory there are three minified files:
 
- - `gridly-core.min.css` (101 B): just the Gridly core including same-width column support and mobile responsive support.
- - `gridly-col-widths.min.css` (154 B): the custom width columns
- - `gridly.min.css` (255 B): the previous two files' content put together
+ - `gridly-core.min.css` (105 B): just the Gridly core including same-width column support and mobile responsive support.
+ - `gridly-col-widths.min.css` (115 B): the custom width columns
+ - `gridly.min.css` (165 B): the previous two files' content put together
 
 If you need to support more browsers, you can use the prefixed versions. They're located in [`dist/prefixed`](/dist/prefixed). They're ~1.8× the size of their counterparts.
 
