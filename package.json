@@ -8,10 +8,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npm run dist-main && npm run dist-widths && npm run dist-all",
-    "dist-main": "postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly.css | uglifycss > dist/gridly-core.min.css",
-    "dist-widths": "postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly-col-widths.css | uglifycss > dist/gridly-col-widths.min.css",
-    "dist-all": "postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly.css | uglifycss > dist/gridly.min.css && postcss -u autoprefixer --autoprefixer.browsers \"> 5%\" lib/gridly-col-widths.css | uglifycss >> dist/gridly.min.css"
+    "release": "npm run dist && npm run prefixed",
+    "dist": "npm run dist-main && npm run dist-widths && npm run dist-all",
+    "dist-main": " uglifycss lib/gridly.css > dist/gridly-core.min.css",
+    "dist-widths": "uglifycss lib/gridly-col-widths.css > dist/gridly-col-widths.min.css",
+    "dist-all": "uglifycss lib/gridly.css > dist/gridly.min.css && uglifycss lib/gridly-col-widths.css >> dist/gridly.min.css",
+    "prefixed": "npm run prefixed-main && npm run prefixed-widths && npm run prefixed-all",
+    "prefixed-main": "postcss -u autoprefixer -c postcss.json lib/gridly.css | uglifycss > dist/prefixed/gridly-core.min.css",
+    "prefixed-widths": "postcss -u autoprefixer -c postcss.json lib/gridly-col-widths.css | uglifycss > dist/prefixed/gridly-col-widths.min.css",
+    "prefixed-all": "postcss -u autoprefixer -c postcss.json lib/gridly.css | uglifycss > dist/prefixed/gridly.min.css && postcss -u autoprefixer -c postcss.json lib/gridly-col-widths.css | uglifycss >> dist/prefixed/gridly.min.css"
   },
   "repository": {
     "type": "git",
