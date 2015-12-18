@@ -4,15 +4,23 @@
 
 The minimal (~100-170 bytes) grid system for modern browsers.
 
-You don't need monolithic CSS frameworks for simple grid systems. ~200 bytes of CSS can save your life. :dizzy:
+You don't need monolithic CSS frameworks for simple grid systems. ~100 bytes of CSS can save your life. :dizzy:
 
 ## Usage
 
 In the [`dist`](/dist) directory there are three minified files:
 
- - `gridly-core.min.css` (216 B): just the Gridly core including same-width column support and mobile responsive support.
- - `gridly-col-widths.min.css` (249 B): the custom width columns
- - `gridly.min.css` (465 B): the previous two files' content put together
+ - `gridly-core.min.css` (101 B): just the Gridly core including same-width column support and mobile responsive support.
+ - `gridly-col-widths.min.css` (154 B): the custom width columns
+ - `gridly.min.css` (255 B): the previous two files' content put together
+
+If you need to support more browsers, you can use the prefixed versions. They're located in [`dist/prefixed`](/dist/prefixed). They're ~1.8× the size of their counterparts.
+
+### Browser Support
+
+Gridly supports browsers that implement the Flexible Box Layout Module.
+
+As of December 2015, browser support for flexbox is 81.27% for unprefixed, and 95.44% for prefixed.
 
 ## :rocket: Available on CDN!
 
