@@ -20,7 +20,7 @@ If you need to support more browsers, you can use the prefixed versions. They're
 
 Gridly supports browsers that implement the Flexible Box Layout Module.
 
-As of December 2015, browser support for flexbox is 81.27% for unprefixed, and 95.44% for prefixed.
+As of December 2015, [browser support for flexbox](http://caniuse.com/#feat=flexbox) is 81.27% for unprefixed, and 95.44% for prefixed.
 
 ## :rocket: Available on CDN!
 
