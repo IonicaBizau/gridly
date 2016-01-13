@@ -1,6 +1,6 @@
 [![gridly](http://i.imgur.com/kPrOESX.png)](http://ionicabizau.github.io/gridly/example/)
 
-# gridly [![](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations][![](https://img.shields.io/npm/v/gridly.svg)](https://www.npmjs.com/package/gridly)[![](https://img.shields.io/npm/dt/gridly.svg)](https://www.npmjs.com/package/gridly)[![](http://ionicabizau.github.io/badges/codementor.svg)](https://www.codementor.io/johnnyb)
+# gridly [![](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![](https://img.shields.io/npm/v/gridly.svg)](https://www.npmjs.com/package/gridly) [![](https://img.shields.io/npm/dt/gridly.svg)](https://www.npmjs.com/package/gridly) [![](http://ionicabizau.github.io/badges/codementor.svg)](https://www.codementor.io/johnnyb)
 
 > The minimal (~100-170 bytes) grid system for modern browsers.
 
