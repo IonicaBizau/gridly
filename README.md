@@ -1,8 +1,8 @@
 [![gridly](http://i.imgur.com/kPrOESX.png)](http://ionicabizau.github.io/gridly/example/)
 
-# gridly [![Support this project][donate-now]][paypal-donations]
+# gridly [![](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations][![](https://img.shields.io/npm/v/gridly.svg)](https://www.npmjs.com/package/gridly)[![](https://img.shields.io/npm/dt/gridly.svg)](https://www.npmjs.com/package/gridly)[![](http://ionicabizau.github.io/badges/codementor.svg)](https://www.codementor.io/johnnyb)
 
-The minimal (~100-170 bytes) grid system for modern browsers.
+> The minimal (~100-170 bytes) grid system for modern browsers.
 
 You don't need monolithic CSS frameworks for simple grid systems. ~100 bytes of CSS can save your life. :dizzy:
 
