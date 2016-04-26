@@ -1,6 +1,6 @@
 {
   "name": "gridly",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "The minimal (~100-170 bytes) grid system for modern browsers.",
   "main": "lib/gridly.css",
   "directories": {
@@ -171,5 +171,16 @@
   },
   "dependencies": {
     "uglifycss": "^0.0.18"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
