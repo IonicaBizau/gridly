@@ -1,6 +1,6 @@
 {
   "name": "gridly",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "The minimal (~100-170 bytes) grid system for modern browsers.",
   "main": "lib/gridly.css",
   "directories": {
@@ -180,6 +180,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
