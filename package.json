@@ -1,6 +1,6 @@
 {
   "name": "gridly",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "The minimal (~100-170 bytes) grid system for modern browsers.",
   "main": "lib/gridly.css",
   "directories": {
@@ -167,7 +167,8 @@
       "ul": [
         "[showalicense.com](http://showalicense.com/)–A site to provide an easy way to show licenses and their human-readable explanations. ([source](https://github.com/IonicaBizau/showalicense.com))"
       ]
-    }
+    },
+    "buy": "https://market.bloggify.org/2-gridly"
   },
   "dependencies": {
     "uglifycss": "^0.0.18"
