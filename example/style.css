@@ -65,6 +65,10 @@ a.btn {
     display: inline-block;
 }
 
+a.btn.btn-buy {
+    background-color: #1abc9c;
+}
+
 a.btn:hover {
     background-color: #2C3E50;
 }
