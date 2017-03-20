@@ -1,6 +1,6 @@
 {
   "name": "gridly",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "description": "The minimal (~100-170 bytes) grid system for modern browsers.",
   "main": "lib/gridly.css",
   "directories": {
@@ -29,7 +29,7 @@
     "modern",
     "browsers"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Oliver Pattison <oliverpattison@gmail.com> (http://olivermak.es)",
     "Phoenix Enero <phoenix.enero@gmail.com> (http://github.com/phoenixenero)",
@@ -174,12 +174,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
