@@ -19,6 +19,7 @@ In the [`dist`](/dist) directory there are three minified files:
  - `gridly-col-widths.min.css` (115 B): the custom width columns
  - `gridly.min.css` (165 B): the previous two files' content put together
 
+
 If you need to support more browsers, you can use the prefixed versions. They're located in [`dist/prefixed`](/dist/prefixed). They're ~1.8× the size of their counterparts.
 
 ### Browser Support
@@ -81,6 +82,7 @@ The `gridly-core.min.css` file handles two classes:
  - `row`: the row containing columns
  - `col`: the column to put in the row
 
+
 Because of the flexbox amazing power, the columns will have the same width (as many columns you want / row).
 
 
@@ -92,6 +94,7 @@ To extend this basic functionality, there is another file: `gridly-col-widths.mi
  - `col-quarter` has `25%` width
  - `col-third` has `33.3333334%` width
  - `col-half` has `50%` width
+
 
 Like specified above, the `gridly.min.css` contains both: the core and the custom widths.
 
@@ -130,6 +133,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 
  - [showalicense.com](http://showalicense.com/)–A site to provide an easy way to show licenses and their human-readable explanations. ([source](https://github.com/IonicaBizau/showalicense.com))
+
 
 ## :scroll: License
 
