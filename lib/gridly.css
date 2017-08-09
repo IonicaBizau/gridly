@@ -1,6 +1,7 @@
 .row { display: flex; }
 .col { flex: 1; }
 @media (max-width: 48em) {
+    .hide-on-mobile { display: none; }
     .row { flex-direction: column; }
     .col { flex: 0 0 auto; }
 }
