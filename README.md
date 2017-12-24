@@ -14,6 +14,7 @@ You don't need monolithic CSS frameworks for simple grid systems. ~100 bytes of 
 
 ## Usage
 
+
 In the [`dist`](/dist) directory there are three minified files:
 
 
@@ -26,28 +27,32 @@ If you need to support more browsers, you can use the prefixed versions. They're
 
 ### Browser Support
 
+
 Gridly supports browsers that implement the Flexible Box Layout Module.
 
 As of December 2015, [browser support for flexbox](http://caniuse.com/#feat=flexbox) is 81.27% for unprefixed, and 95.44% for prefixed.
 
 ## :rocket: Available on CDN!
 
+
 Gridly is available on cdnjs.com. [**Check it out**](https://cdnjs.com/libraries/gridly).
 
-> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.4.11/gridly-core.min.css
-> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.4.11/gridly-col-widths.min.css
-> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.4.11/gridly.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-core.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-col-widths.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly.min.css
 
 
 If you do not need custom width columns, you will probably want to use only `gridly-core.min.css` in your page. If you do need the custom width columns, you have to include `gridly.min.css` instead.
 
 ## Example
 
+
 Include the CSS file in your page:
 
 ```html
 <link rel="stylesheet" href="gridly.min.css" type="text/css" charset="utf-8">
 ```
+
 
 Then you can use the `.row` and `.col` classes:
 
@@ -57,6 +62,7 @@ Then you can use the `.row` and `.col` classes:
     <div class="col">Column</div>
 </div>
 ```
+
 
 This will create two columns having equal widths.
 
@@ -68,10 +74,14 @@ This will create two columns having equal widths.
 
 Check out the [`dist`](/dist) directory to download the needed files and include them on your page.
 
-If you're using this module in a CommonJS environment, you can install it from `npm` and `require` it:
+If you're using this module in a CommonJS environment, you can install it using `npm` or `yarn` and `require` it:
 
 ```sh
-$ npm i --save gridly
+# Using npm
+npm install --save gridly
+
+# Using yarn
+yarn add gridly
 ```
 
 
