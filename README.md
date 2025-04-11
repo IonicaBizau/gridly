@@ -66,9 +66,9 @@ As of December 2015, [browser support for flexbox](http://caniuse.com/#feat=flex
 
 Gridly is available on cdnjs.com. [**Check it out**](https://cdnjs.com/libraries/gridly).
 
-> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-core.min.css
-> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-col-widths.min.css
-> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.5.1/gridly-core.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.5.1/gridly-col-widths.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.5.1/gridly.min.css
 
 
 If you do not need custom width columns, you will probably want to use only `gridly-core.min.css` in your page. If you do need the custom width columns, you have to include `gridly.min.css` instead.
@@ -145,23 +145,6 @@ yarn add gridly
 
 
 
-
-## :question: Get Help
-
-There are few ways to get help:
-
-
-
- 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
- 2. For bug reports and feature requests, open issues. :bug:
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
-
-
-
-
-
-
-
 ## :memo: Documentation
 
 
@@ -186,6 +169,24 @@ To extend this basic functionality, there is another file: `gridly-col-widths.mi
 
 
 Like specified above, the `gridly.min.css` contains both: the core and the custom widths.
+
+
+
+
+
+
+
+
+## :question: Get Help
+
+There are few ways to get help:
+
+
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 
